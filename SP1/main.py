@@ -10,7 +10,7 @@ except LookupError:
 
 if __name__ == '__main__':
     input_file = []
-    file = 'ukazka_HDS.ortho.txt' # 'vety_HDS.ortho.txt'
+    file = 'input/ukazka_HDS.ortho.txt'  # 'vety_HDS.ortho.txt'
     with open(file, 'r', encoding='utf-8') as f:
         for line in f:
             input_file.append(line.strip().lower())
